@@ -1,0 +1,32 @@
+nav {
+    background-color: #FFE6CC;
+    display: flex;
+}
+
+.navbar img {
+    width: 80px;
+}
+
+.navbar-nav li a {
+    color: #6D3805;
+}
+
+.navbar-nav .btnRegister {
+    color: white;
+}
+
+.mx-12 {
+    margin-left: 14%; 
+    margin-right: 14%;
+}
+
+.btnRegister {
+    border-radius: 15px;
+    border-color: #FF5E00;
+    background-color: #FF5E00;
+    margin-left: 20px;
+}
+
+.nav-link:hover:not(.btnRegister) {
+    color: #FF5E00;
+}

@@ -1,7 +1,9 @@
-import HelloWorld from "./components/HelloWorld"
+import Navbar from "./components/Navbar"
+import "./index.css"
+import "./styles/Navbar.css"
 
 function App() {
-  return <HelloWorld/>
+  return <Navbar/>
 }
 
 export default App
